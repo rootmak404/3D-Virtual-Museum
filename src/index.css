@@ -1,0 +1,33 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+.main {
+  width: 100%;
+  min-height: 100vh;
+  background-color: black;
+  box-sizing: border-box;
+}
+
+.content {
+  max-width: 1200px;
+  margin: auto;
+  color: white;
+  padding-top: 80px;
+}
+
+.navbar {
+  max-width: 1200px;
+  margin: auto;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
